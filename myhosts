@@ -19,6 +19,3 @@
 [redhatservers]
 172.31.43.40
 
-[mywebservers:vars]
-mywebpackageforubnutu= apache2
-mywebpackageforredhat= httpd
