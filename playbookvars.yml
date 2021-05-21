@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  vars:
+    myvar01: git
+    myvar02: tree
+    myvar03: wget
+  tasks: 
+  - name: 
