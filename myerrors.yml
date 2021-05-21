@@ -1,0 +1,16 @@
+---
+- hosts: 172.31.44.79 
+  become: yes
+  tasks:
+  - name: i want to install git 
+    apt:
+      name: git
+      state: present
+  - name: i want to install tree
+    apt:
+      name: tree
+      statee: present
+  - name: i want to install wget
+    apt:
+      name: wget
+      state: present
