@@ -6,6 +6,8 @@
     apt:
       name: git
       state: present
+
+      #  apt-get install git
       
   - name: i want to install tree
     apt:
