@@ -12,8 +12,8 @@
   - name: i want to start websever on ubuntu node
     service:
       name: apache2
-      state: present
-      
+      state: started
+
   - name: i want to copy myindex.j2 into nodeside
     template:
       src: myindex.j2
