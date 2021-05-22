@@ -3,8 +3,18 @@
   become: yes
   tasks:
   - include_tasks: file.yml
-  
+
   - name: i want to install websever on ubuntu node
     apt:
      name: apache2
      state: present
+
+  - name: i want to start websever on ubuntu node
+    service:
+      name: apache2
+      state: present
+      
+  - name: i want to copy myindex.j2 into nodeside
+    template:
+      src: myindex.j2
+      dest: /var/www/html/index.html
