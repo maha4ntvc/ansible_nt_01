@@ -6,8 +6,8 @@
 
   tasks:
   - name: disply myvars
-    dubug:
+    debug:
       msg: "{{myvars}}"
   - name: disply myjavapackonubuntu
-    dubug:
+    debug:
       msg: "{{myjavapackonubuntu}}"
